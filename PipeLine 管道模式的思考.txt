@@ -1,0 +1,4 @@
+PipeLine 管道模式的思考
+【】BasePipeline《里面包含 IpipleJob 里面包含 《IjobElement》》
+意思就是， 【】Job管道里面--》包含的具体的job---》具体的job里面包含了 elemnt元素。
+这里job任务和element元素 之间使用了this相互嵌套了一下。
